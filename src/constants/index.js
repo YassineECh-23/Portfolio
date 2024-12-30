@@ -38,35 +38,37 @@ export const EXPERIENCES = [
   },
 ];
 
-export const PROJECTS = [
+const projects = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      title: 'Project 1',
+      description: 'This is a short description of project 1.',
+      technologies: 'React, JavaScript, CSS'
   },
   {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      title: 'Project 2',
+      description: 'This is a short description of project 2.',
+      technologies: 'Node.js, Express, MongoDB'
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      title: 'Project 3',
+      description: 'This is a short description of project 3.',
+      technologies: 'Python, Django, PostgreSQL'
   },
   {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      title: 'Project 4',
+      description: 'This is a short description of project 4.',
+      technologies: 'Java, Spring Boot, MySQL'
   },
+  {
+      title: 'Project 5',
+      description: 'This is a short description of project 5.',
+      technologies: 'Angular, TypeScript, SCSS'
+  },
+  {
+      title: 'Project 6',
+      description: 'This is a short description of project 6.',
+      technologies: 'Vue.js, Vuex, Vuetify'
+  }
 ];
 
 export const CONTACT = {
