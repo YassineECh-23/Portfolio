@@ -1,77 +1,31 @@
-import React from 'react';
-
-
-const projects = [
-    {
-        title: 'Project 1',
-        description: 'This is a short description of project 1.',
-        technologies: 'React, JavaScript, CSS'
-    },
-    {
-        title: 'Project 2',
-        description: 'This is a short description of project 2.',
-        technologies: 'Node.js, Express, MongoDB'
-    },
-    {
-        title: 'Project 3',
-        description: 'This is a short description of project 3.',
-        technologies: 'Python, Django, PostgreSQL'
-    },
-    {
-        title: 'Project 4',
-        description: 'This is a short description of project 4.',
-        technologies: 'Java, Spring Boot, MySQL'
-    },
-    {
-        title: 'Project 5',
-        description: 'This is a short description of project 5.',
-        technologies: 'Angular, TypeScript, SCSS'
-    },
-    {
-        title: 'Project 6',
-        description: 'This is a short description of project 6.',
-        technologies: 'Vue.js, Vuex, Vuetify'
-    }
-];
+import { PROJECTS } from '../constants';
 
 const Projects = () => {
     return (
-        <div>
-            <h2 style={styles.title}>Projects</h2>
-            <div style={styles.container}>
-                {projects.map((project, index) => (
-                    <div key={index} style={styles.projectCard}>
-                        <h3>{project.title}</h3>
-                        <p>{project.description}</p>
-                        <p><strong>Technologies:</strong> {project.technologies}</p>
+        <div className="border-b border-neutral-900 pb-4">
+            <h2 className="my-20 text-center text-4xl">Projects</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {PROJECTS.map((project, index) => (
+                    <div key={index} className="card p-4 border-2 border-dashed border-red-500 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+                        <div className="flex justify-center">
+                            <img src={project.image} 
+                            className="w-64 h-64 object-cover"
+                            alt={project.title} />
+                        </div>
+                        <h3 className="mt-4 text-xl font-bold text-center">{project.title}</h3>
+                        <p className="mt-2 text-center">{project.description}</p>
+                        <div className="mt-2 text-center">
+                            {project.technologies.map((tech, techIndex) => (
+                                <span key={techIndex} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
                     </div>
                 ))}
             </div>
         </div>
     );
-};
-
-const styles = {
-    title: {
-        textAlign: 'center',
-        margin: '20px 0',
-        fontSize: '2em'
-    },
-    container: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'space-around',
-        padding: '20px'
-    },
-    projectCard: {
-        width: '30%',
-        margin: '10px',
-        padding: '20px',
-        border: '1px solid #ccc',
-        borderRadius: '8px',
-        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-        textAlign: 'center'
-    }
 };
 
 export default Projects;
