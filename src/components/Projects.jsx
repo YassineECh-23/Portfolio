@@ -1,9 +1,16 @@
 import { PROJECTS } from '../constants';
+import { motion } from 'framer-motion';
 
 const Projects = () => {
     return (
         <div className="border-b border-neutral-900 pb-4">
-            <h2 className="my-20 text-center text-4xl">Projects</h2>
+            <motion.h2 
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 1.5 }}
+            className="my-20 text-center text-4xl">Projects</motion.h2>
+
+
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="card p-4 border-2 border-dashed border-red-500 rounded-xl shadow-lg transform transition-transform hover:scale-105">
