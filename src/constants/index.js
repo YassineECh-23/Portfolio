@@ -11,41 +11,50 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: 'Project 1',
+    title: 'Squadro Game ',
     image: project1,
-    description: 'This is a short description of project 1.',
-    technologies: ["React", "JavaScript", "CSS"],
+    description: 'Squadro is a two‑player abstract strategy game where you race four of your five pawns back and forth across five lanes.',
+    technologies: ["PHP", "PostgreSQL", "TailwindCSS"],
+    githubLink: 'https://github.com/YassineECh-23/Squadro', 
   },
   {
-    title: 'Project 2',
+    title: 'Site Web ',
     image: project2,
-    description: 'This is a short description of project 2.',
-    technologies: ["Vue", "JavaScript", "HTML"],
+    description: 'A Symfony and Tailwind CSS–powered website that lists every collège and lycée across all French departments, regions, and communes, featuring interactive map visualization.',
+    technologies: ["Symfony", "MySQL", "TailwindCSS"],
+    githubLink: 'https://github.com/yourusername/site-web', 
   },
   {
-    title: 'Project 3',
+    title: 'Quantik Game',
     image: project3,
-    description: 'This is a short description of project 3.',
-    technologies: ["Angular", "TypeScript", "SCSS"],
+    description: 'Quantik is a two‑player abstract strategy game where players take turns placing one of four unique shapes on a 4×4 grid, aiming to complete a row, column, or quadrant.',
+    technologies: ["PHP", "MySQL", "HTML/CSS"],
+    githubLink: 'https://github.com/yourusername/quantik-game', 
   },
   {
-    title: 'Project 4',
+    title: 'Ball in Hole',
     image: project4,
-    description: 'This is a short description of project 4.',
-    technologies: ["Svelte", "JavaScript", "CSS"],
+    description: 'A mobile game built in Java with Android Studio where you tilt your device to guide a ball into a hole.',
+    technologies: ["Java", "Android Studio"],
+    githubLink: 'https://github.com/yourusername/ball-in-hole', 
   },
   {
-    title: 'Project 5',
+    title: 'Web site Foot ',
     image: project5,
-    description: 'This is a short description of project 5.',
-    technologies: ["React", "TypeScript", "CSS"],
+    description: 'A web application that lists football teams by country with detailed player stats (age, goals scored) and full CRUD functionality to add, edit, or remove players.',
+    technologies: ["PHP", "PostgreSQL", "Html/CSS"],
+    githubLink: 'https://github.com/YassineECh-23/Foot', 
   },
   {
-    title: 'Project 6',
+    title: 'Card Game',
     image: project6,
-    description: 'This is a short description of project 6.',
-    technologies: ["Vue", "JavaScript", "SCSS"],
+    description: 'A Java‑based computer card game where players use cards with diverse roles and abilities to strategize and outplay their opponent in a dynamic digital match.',
+    technologies: ["Java"],
+    githubLink: 'https://github.com/YassineECh-23/CardGame', 
   },
 ];
+  
+ 
+
 
 
