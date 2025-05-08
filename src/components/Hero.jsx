@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants';
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/image.png";
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 
@@ -95,7 +95,7 @@ const Hero = () => {
                             transition={{ duration: 1, delay: 1.2 }}
                             src={profilePic}
                             alt="profile"
-                            className="rounded-lg shadow-lg"
+                            className="rounded-lg shadow-lg w-5/6" // Adjusted size
                         />
                     </div>
                 </div>

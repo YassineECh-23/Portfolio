@@ -7,7 +7,9 @@ import project6 from "../assets/projects/project-6.jpg";
 
 export const HERO_CONTENT = `I am a computer science student and I'm currently exploring two domains: data engineering and full stack development. Right now, I want to practice what I know in a company that can provide me with the opportunity to grow and learn in a professional environment.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am passionate about Full-Stack development, software engineering, and Data Engineering. I have already completed two back-end internships (Laravel, Symfony, MySQL/PostgreSQL) as well as several personal projects (ReactJS, automated testing) that have strengthened my autonomy, rigor, and ability to deliver scalable solutions. Curious and always keeping up with the latest technologies, I enjoy designing clear architectures, optimizing performance, and collaborating in Agile environments.
+
+Available for a work-study position starting in September 2025, I am eager to contribute to innovative projects where I can leverage my skills in JavaScript, Python, REST APIs, and Data. I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const PROJECTS = [
   {
