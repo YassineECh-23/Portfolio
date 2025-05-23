@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 
-export const HERO_CONTENT = `I am a computer science student and I'm currently exploring two domains: data engineering and full stack development. Right now, I want to practice what I know in a company that can provide me with the opportunity to grow and learn in a professional environment.`;
+export const HERO_CONTENT = `I am a computer science student and I'm currently exploring three domains: data engineering and full stack development. Right now, I want to practice what I know in a company that can provide me with the opportunity to grow and learn in a professional environment.`;
 
 export const ABOUT_TEXT = `I am passionate about Full-Stack development, software engineering, and Data Engineering. I have already completed two back-end internships (Laravel, Symfony, MySQL/PostgreSQL) as well as several personal projects (ReactJS, automated testing) that have strengthened my autonomy, rigor, and ability to deliver scalable solutions. Curious and always keeping up with the latest technologies, I enjoy designing clear architectures, optimizing performance, and collaborating in Agile environments.
 
